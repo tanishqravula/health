@@ -1,0 +1,188 @@
+/*li.menuElement{
+    float: left;
+    position: fixed;
+    overflow: hidden;
+    padding:40px 16px;
+    margin-left:0px;
+    background-color: white;
+    margin-top: 0px;
+    text-decoration:none;
+    position: relative;
+    bottom:16px;
+    right:47px;  
+    display: block;     
+}
+
+
+
+div.navigator{
+    color: white;
+    margin: 0px;
+    padding: 0px 0px;
+    width: 100%;
+    
+    position: fixed;
+    right: 1px;
+    top: 1px;
+}
+
+
+
+div.navigatorElements{
+    color: #3399ff;
+}
+
+
+body{
+    font-family:  'Oxygen';
+    background-color: #3399ff;
+    color: white;   
+    margin: 0 px;
+}
+
+div.content{
+    position: relative;
+    float: left;
+    padding-top: 15px; 
+    
+    top: 100px; 
+    color: black;
+}*/
+
+body{
+    margin: 0;
+    font-family:  'Oxygen';
+    color: white;
+    background-color: #0080ff;
+    
+}
+
+ul.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3399ff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+}
+
+li.menuElement{
+    float: left;
+    
+    padding-bottom: 0px;
+    padding-top: 10px;
+    margin: 0px;
+    
+}
+
+#nill{
+    padding: 0px 0px;
+    margin-bottom: 0px;
+}
+
+#first{
+    padding-left: 10px;
+}
+
+li.menuElement a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 32px 16px;
+    margin: 0px;
+    text-decoration: none;
+    
+}
+
+li.menuElement a:hover:not(.active){
+    background-color: #0080ff;
+}
+
+.active{
+    background-color: #0080ff;
+}
+
+div.content{
+    margin-left: 60px;
+    margin-top: 130px;
+}
+
+div.contentBlood{
+    margin-top: 120px;
+    margin-left: 60px;
+}
+
+div.contentOxygen{
+    margin-top: 120px;
+    margin-left: 60px;
+}
+
+div.imgBloodTest{
+    clear: left;
+    float: left;
+    position: absolute;
+    z-index: -1;
+    right: 650px;
+}
+
+
+div.impactText{
+    float: left;
+    position: absolute;
+    bottom: 100px;
+    z-index: -1;
+}
+
+div.moreLinks{
+    float: left;
+    position: absolute;
+    bottom: -700px;
+    
+}
+
+div.heartLungsText{
+    position: absolute;
+    bottom: -490px;
+}
+
+div.imgHeartLungs{
+    
+    position: absolute;
+    bottom: -350px;
+    right: 650px;
+    z-index: -1;
+
+}
+
+div.heartLungsHeader{
+    position: absolute;
+    top: 860px;
+}
+
+div.imgCovidImage{
+    position: absolute;
+    z-index: -1;
+    top: 220px;
+    left: 60px;
+}
+
+div.imgCovidPhoto{
+    position: absolute;
+    z-index: -1;
+    top: 220px;
+    left: 390px;
+}
+
+div.mainAbout{
+    position: absolute;
+    z-index: -1;
+    bottom: -220px;
+}
+div.maskContent{
+    position:absolute;
+    z-index: -1;
+    bottom: -370px;
+}
