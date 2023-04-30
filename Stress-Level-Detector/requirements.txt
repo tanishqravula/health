@@ -3,4 +3,7 @@ streamlit
 numpy
 matplotlib
 pandas
+scikit_learn
+joblib
+pandas-profiling
 scikit-learn
