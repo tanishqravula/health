@@ -10,7 +10,7 @@ def app():
     st.title("Stress Level Detector")
 
     # Add image to the home page
-    st.image("./images/home.png")
+    st.image("Stress-Level-Detector/images/home.png")
 
     # Add brief describtion of your web app
     st.markdown(
