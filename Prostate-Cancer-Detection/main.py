@@ -19,7 +19,6 @@ st.set_page_config(
 # Dictionary for pages
 Tabs = {
     "Home": home,
-    "About": about,
     "Data Info": data,
     "Prediction": predict,
     "Visualisation": visualise
