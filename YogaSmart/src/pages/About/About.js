@@ -30,7 +30,7 @@ export default function About() {
                 </p>
                 <div className="developer-info">
                     <h4>About Developer</h4>
-                    <p className="about-content">This application is developed by Mainak Chaudhuri.  
+                    <p className="about-content">This application is developed by Ravula Tanishq.  
                     </p>
                     
                 </div>
